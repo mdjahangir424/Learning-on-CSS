@@ -1,3 +1,3 @@
 # Learning-on-CSS
 
-###I'm here daily learn css property. 
+I'm here daily to learn css property. 
