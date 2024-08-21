@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+:root {
+  --bg-color: #ccccff;
+  --second-bg-color: #007b7b;
+  --three-bg: #00cece;
+  --text-color: #fff;
+  --text2-color: #ddd;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_area {
+  margin: 2rem auto;
+  width: 90%;
+}
+
+.title {
+  background: var(--second-bg-color);
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main_area h2 {
+  color: var(--text-color);
+  margin: 0;
+}
+
+.child {
+  background: var(--three-bg);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.child h3 {
+  display: flex;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text2-color);
+  background: var(--second-bg-color);
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+}
+
+.child p {
+  color: var(--text-color);
+}
+
+.btn {
+  background: var(--second-bg-color);
+  padding: 0.8rem 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-color);
+  border-radius: 4rem;
+  font-weight: 600;
+  box-shadow: 0 0 1rem var(--second-bg-color);
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background: var(--bg-color);
+  color: #000;
+}
