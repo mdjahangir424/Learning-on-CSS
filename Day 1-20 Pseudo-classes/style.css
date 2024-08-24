@@ -1,3 +1,26 @@
 a:hover {
   background-color: red;
 }
+
+.master:hover {
+  background-color: red;
+}
+
+p:first-child {
+  background-color: red;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.intro::first-line {
+  background-color: aqua;
+}
+
+p::before {
+  content: url('/img/html.png');
+}
+p::after {
+  content: url('/img/logo-js.png');
+}
